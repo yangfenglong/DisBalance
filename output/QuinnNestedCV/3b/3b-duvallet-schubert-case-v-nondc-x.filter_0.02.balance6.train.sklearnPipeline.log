@@ -1,0 +1,8 @@
+2021-02-21 16:39:00 Start reading data from 3b-duvallet-schubert-case-v-nondc-x.filter_0.02.balance6.train.csv
+2021-02-21 16:39:00 Finish loading data from 3b-duvallet-schubert-case-v-nondc-x.filter_0.02.balance6.train.csv, dimension is (222, 316), 
+ 			 label counts Counter({'NonDiarrhealControl': 138, 'Case': 84})
+2021-02-21 16:39:00 The dataset is class-imbalanced, dataset shape Counter({1: 138, 0: 84}) before over sampling
+2021-02-21 16:39:00 Over sampled dataset with SVMSMOTE, shape Counter({0: 138, 1: 138})
+2021-02-21 16:39:00 Hypertune the classifier LogisticRegression with GridSearchCV
+2021-02-21 16:39:05 Best optimized classifier: LogisticRegression , Accuracy:1.00, Best Param:{'C': 0.12271252398511903}
+2021-02-21 16:39:05 name 'filename' is not defined

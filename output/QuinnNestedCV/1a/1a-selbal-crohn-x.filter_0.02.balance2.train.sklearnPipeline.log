@@ -1,0 +1,6 @@
+2021-02-22 10:09:01 Start reading data from 1a-selbal-crohn-x.filter_0.02.balance2.train.csv
+2021-02-22 10:09:01 Finish loading data from 1a-selbal-crohn-x.filter_0.02.balance2.train.csv, dimension is (1059, 30), 
+ 			 label counts Counter({'CD': 530, 'no': 529})
+2021-02-22 10:09:01 Hypertune the classifier LogisticRegression with GridSearchCV
+2021-02-22 10:09:06 Best optimized classifier: LogisticRegression , Accuracy:0.79, Best Param:{'C': 0.00332829813945462}
+2021-02-22 10:09:06 name 'filename' is not defined

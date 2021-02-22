@@ -1,0 +1,8 @@
+2021-02-21 16:40:32 Start reading data from 3c-duvallet-baxter-crc-v-h-x.filter_0.02.balance0.train.csv
+2021-02-21 16:40:32 Finish loading data from 3c-duvallet-baxter-crc-v-h-x.filter_0.02.balance0.train.csv, dimension is (262, 643), 
+ 			 label counts Counter({'H': 154, 'CRC': 108})
+2021-02-21 16:40:32 The dataset is class-imbalanced, dataset shape Counter({1: 154, 0: 108}) before over sampling
+2021-02-21 16:40:32 Over sampled dataset with SVMSMOTE, shape Counter({1: 154, 0: 154})
+2021-02-21 16:40:32 Hypertune the classifier LogisticRegression with GridSearchCV
+2021-02-21 16:40:43 Best optimized classifier: LogisticRegression , Accuracy:0.85, Best Param:{'C': 0.011077568505097092}
+2021-02-21 16:40:43 name 'filename' is not defined

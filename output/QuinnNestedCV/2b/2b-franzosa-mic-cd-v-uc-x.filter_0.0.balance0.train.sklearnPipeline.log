@@ -1,0 +1,6 @@
+2021-02-22 08:41:56 Start reading data from 2b-franzosa-mic-cd-v-uc-x.filter_0.0.balance0.train.csv
+2021-02-22 08:41:56 Finish loading data from 2b-franzosa-mic-cd-v-uc-x.filter_0.0.balance0.train.csv, dimension is (167, 86), 
+ 			 label counts Counter({'UC': 84, 'CD': 83})
+2021-02-22 08:41:56 Hypertune the classifier LogisticRegression with GridSearchCV
+2021-02-22 08:41:58 Best optimized classifier: LogisticRegression , Accuracy:0.81, Best Param:{'C': 0.011077568505097092}
+2021-02-22 08:41:58 name 'filename' is not defined

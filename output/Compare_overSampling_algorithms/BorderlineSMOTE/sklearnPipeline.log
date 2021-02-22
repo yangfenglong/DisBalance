@@ -1,0 +1,16 @@
+2021-02-22 13:35:47 Start reading data from otu_table.xls.filter_0.02_prevalence.balance.csv
+2021-02-22 13:35:47 Finish loading data from otu_table.xls.filter_0.02_prevalence.balance.csv, dimension is (1066, 45), 
+ 			 label counts Counter({'D006262': 615, 'D003093': 451})
+2021-02-22 13:35:54 The dataset is class-imbalanced, dataset shape Counter({1: 615, 0: 451}) before over sampling
+2021-02-22 13:35:54 Over sampled dataset with BorderlineSMOTE, shape Counter({1: 615, 0: 615})
+2021-02-22 13:35:54 Hypertune the classifier LogisticRegression with GridSearchCV
+2021-02-22 13:36:02 Best optimized classifier: LogisticRegression , Accuracy:0.74, Best Param:{'C': 1.0}
+2021-02-22 13:36:02 Pipeline is finished
+2021-02-22 13:36:02 Start reading data from otu_table.xls.filter_0.02_prevalence.balance.csv
+2021-02-22 13:36:02 Finish loading data from otu_table.xls.filter_0.02_prevalence.balance.csv, dimension is (1066, 45), 
+ 			 label counts Counter({'D006262': 615, 'D003093': 451})
+2021-02-22 13:36:09 The dataset is class-imbalanced, dataset shape Counter({1: 615, 0: 451}) before over sampling
+2021-02-22 13:36:09 Over sampled dataset with RandomOverSampler, shape Counter({1: 615, 0: 615})
+2021-02-22 13:36:09 Hypertune the classifier LogisticRegression with GridSearchCV
+2021-02-22 13:36:16 Best optimized classifier: LogisticRegression , Accuracy:0.77, Best Param:{'C': 1.0}
+2021-02-22 13:36:17 Pipeline is finished

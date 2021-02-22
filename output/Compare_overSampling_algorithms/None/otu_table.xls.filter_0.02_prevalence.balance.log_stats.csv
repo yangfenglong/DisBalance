@@ -1,0 +1,6 @@
+stats_index,stats_value
+original_dim,"(1066, 45)"
+prevalence_0_dim,"(1066, 45)"
+ori_class_sample_count,"Counter({1: 615, 0: 451})"
+hypertuned_best_score_accuracy,0.74
+hypertuned_accuracy,0.77

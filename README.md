@@ -13,11 +13,22 @@ dlimits=0.0001
 
 Rcmd='Rscript ./bin/run_distal_DBA.R {} {} {}'.format( 
                         otu_file, sample_file, dlimits)
-subprocess.run(Rcmdtop, shell=True)
+subprocess.run(Rcmd, shell=True)
 ```
 ## Model building risk Prediction
 
 refer to [mMAL](http://lab.malab.cn/soft/mAML/download.html)
+
+## The performance of the model
+The comparison between the different over-sampling algorithms.  
+
+script: `robust_measure_performance_nested.py`
+`output/Compare_overSampling_algorithms/`
+
+
+Independent datasets test
+
+output dir:  `output/QuinnNestedCV/`
 
 
 ## Biomarker Discovery

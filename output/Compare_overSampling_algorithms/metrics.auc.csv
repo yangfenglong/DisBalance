@@ -1,0 +1,7 @@
+ADASYN,0.90
+BorderlineSMOTE,0.90
+KMeansSMOTE,0.94
+None,0.92
+RandomOverSampler,0.92
+SMOTE,0.92
+SVMSMOTE,0.91
